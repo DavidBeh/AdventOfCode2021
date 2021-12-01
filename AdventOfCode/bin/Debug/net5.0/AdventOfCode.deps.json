@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AdventOfCode/1.0.0": {
+        "dependencies": {
+          "AoCHelper": "1.0.2"
+        },
+        "runtime": {
+          "AdventOfCode.dll": {}
+        }
+      },
+      "AoCHelper/1.0.2": {
+        "dependencies": {
+          "Spectre.Console": "0.42.0"
+        },
+        "runtime": {
+          "lib/net5.0/AoCHelper.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Spectre.Console/0.42.0": {
+        "dependencies": {
+          "Wcwidth": "0.2.0"
+        },
+        "runtime": {
+          "lib/net5.0/Spectre.Console.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.42.0.0"
+          }
+        }
+      },
+      "Wcwidth/0.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Wcwidth.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdventOfCode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AoCHelper/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4l+3aVZcgh5Ju4XGhj3ATr76C+p+Q+5j3XEXRC85OA8I4f8pPZ/4FWKDK+ThxY1a/LVI/Yk/S64GVxeGFJscGg==",
+      "path": "aochelper/1.0.2",
+      "hashPath": "aochelper.1.0.2.nupkg.sha512"
+    },
+    "Spectre.Console/0.42.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S7W1pHhcDOvzPQE4TJtQvkkF1/zflCvF5E7rYgHJXFVT/rnPZE8o7GmHJbckY7LUUAZ1OllUJ3E5BxBzCVg+wQ==",
+      "path": "spectre.console/0.42.0",
+      "hashPath": "spectre.console.0.42.0.nupkg.sha512"
+    },
+    "Wcwidth/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw==",
+      "path": "wcwidth/0.2.0",
+      "hashPath": "wcwidth.0.2.0.nupkg.sha512"
+    }
+  }
+}
