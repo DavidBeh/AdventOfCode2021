@@ -19,3 +19,4 @@ C:\Users\David\RiderProjects\AdventOfCode\AdventOfCode\obj\Debug\net5.0\AdventOf
 C:\Users\David\RiderProjects\AdventOfCode\AdventOfCode\obj\Debug\net5.0\ref\AdventOfCode.dll
 C:\Users\David\RiderProjects\AdventOfCode\AdventOfCode\obj\Debug\net5.0\AdventOfCode.pdb
 C:\Users\David\RiderProjects\AdventOfCode\AdventOfCode\obj\Debug\net5.0\AdventOfCode.genruntimeconfig.cache
+C:\Users\David\RiderProjects\AdventOfCode\AdventOfCode\bin\Debug\net5.0\Inputs\06.txt

@@ -1,13 +1,19 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace AdventOfCode
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine(new Day01().Solve_2().Result);
+            Stopwatch timer = new Stopwatch();
+            timer.Start();
+            var l = await new Day06().Solve_1();
+            timer.Stop();
+            Console.WriteLine($"Time: {timer.Elapsed.ToString()}\n{l}");
         }
     }
 }
